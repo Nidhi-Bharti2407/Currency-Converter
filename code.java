@@ -14,6 +14,8 @@ import com.google.gson.*;
 
 class currencyConverter
 {
+private String lhs;
+  
   
   
   

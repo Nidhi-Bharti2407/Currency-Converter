@@ -16,6 +16,9 @@ class currencyConverter
 {
 private String lhs;
 private String rhs;
+private String error;
+private String icc;
+  
   
   
   

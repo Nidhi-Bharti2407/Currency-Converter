@@ -19,6 +19,8 @@ private String rhs;
 private String error;
 private String icc;
  public currencyConverter(
+  {
+  }
   
   
   

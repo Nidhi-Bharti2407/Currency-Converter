@@ -54,7 +54,7 @@ public class Convert extends HttpServlet {
      currencyFrom = req.getParameter("from");
       /*Open a connection to google and read the result*/
     try {
-            query = "http://www.google.com/ig/calculator?hl=en&q=" + amount + curFrom + "=?" + curTo;
+            query = "http://www.google.com/ig/calculator?hl=en&q=" + amount + currencyFrom + "=?" + currencyTo;
             URL url = new URL(query);
             InputStreamReader stream = new InputStreamReader(url.openStream());
             BufferedReader in = new BufferedReader(stream);
@@ -66,7 +66,7 @@ public class Convert extends HttpServlet {
 
             /*Parse the result which is in json format*/
             Gson gson = new Gson();
-            Recv st = gson.fromJson(str, Recv.class);
+            currencyConverter st = gson.fromJson(str, currencyConverter.class);
             String rhs = st.getRhs();
             rhs = rhs.replaceAll("�", "");
             /*we do the check in order to print the additional word(millions,billions etc)*/

@@ -18,10 +18,10 @@ private String lhs;
 private String rhs;
 private String error;
 private String icc;
- public currencyConverter(
+public currencyConverter(
   {
   }
-  
+public String getLhs()
   
   
   

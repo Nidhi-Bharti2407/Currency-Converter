@@ -40,6 +40,7 @@ public class Convert extends HttpServlet {
      */
    protected void processRequest(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
      String query = "";
+     String amount = "";
     
  
 

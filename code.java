@@ -45,6 +45,7 @@ public class Convert extends HttpServlet {
      String currencyFrom = "";
      String submit = "";
      String res = "";
+     HttpSession session;
     
     
  

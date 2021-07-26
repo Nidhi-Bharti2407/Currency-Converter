@@ -39,6 +39,7 @@ public class Convert extends HttpServlet {
      * @throws IOException if an I/O error occurs
      */
    protected void processRequest(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
+     String query = "";
     
  
 

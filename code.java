@@ -49,6 +49,9 @@ public class Convert extends HttpServlet {
      resp.setContentType("text/html;charset=UTF-8");
         PrintWriter out = resp.getWriter();
     /*Read request parameters*/
+     amount = req.getParameter("amount");
+     currencyTo = req.getParameter("to");
+     currencyFrom = req.getParameter("from");
     
     
  

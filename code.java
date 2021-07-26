@@ -52,6 +52,8 @@ public class Convert extends HttpServlet {
      amount = req.getParameter("amount");
      currencyTo = req.getParameter("to");
      currencyFrom = req.getParameter("from");
+     /*Open a connection to google and read the result*/
+
     
     
  

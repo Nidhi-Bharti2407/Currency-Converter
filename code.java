@@ -26,7 +26,10 @@ public String getLhs()
 return lhs;
 }
 public String getRhs()
-  
+{
+return rhs;
+}
+    
  
   
   

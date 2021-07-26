@@ -46,6 +46,8 @@ public class Convert extends HttpServlet {
      String submit = "";
      String res = "";
      HttpSession session;
+     resp.setContentType("text/html;charset=UTF-8");
+        PrintWriter out = resp.getWriter();
     
     
  

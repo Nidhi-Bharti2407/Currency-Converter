@@ -22,7 +22,7 @@ public currencyConverter(
   {
   }
 public String getLhs()
-  
+ 
   
   
   

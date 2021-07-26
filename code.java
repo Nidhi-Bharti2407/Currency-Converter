@@ -42,6 +42,7 @@ public class Convert extends HttpServlet {
      String query = "";
      String amount = "";
      String currencyTo = "";
+     String currencyFrom = "";
     
     
  

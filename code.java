@@ -47,12 +47,12 @@ public class Convert extends HttpServlet {
      String res = "";
      HttpSession session;
      resp.setContentType("text/html;charset=UTF-8");
-        PrintWriter out = resp.getWriter();
-    /*Read request parameters*/
+     PrintWriter out = resp.getWriter();
+     /*Read request parameters*/
      amount = req.getParameter("amount");
      currencyTo = req.getParameter("to");
      currencyFrom = req.getParameter("from");
-     /*Open a connection to google and read the result*/
+      /*Open a connection to google and read the result*/
 
     
     

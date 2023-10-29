@@ -52,7 +52,7 @@ public class Convert extends HttpServlet {
      amount = req.getParameter("amount");
      currencyTo = req.getParameter("to");
      currencyFrom = req.getParameter("from");
-      /*Open a connection to google and read the result*/
+     
     try {
             query = "http://www.google.com/ig/calculator?hl=en&q=" + amount + currencyFrom + "=?" + currencyTo;
             URL url = new URL(query);

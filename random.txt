@@ -1,0 +1,1 @@
+This files containes only numbers and currency types.
